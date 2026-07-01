@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/zacken/Desktop/TravelTown/build",
+  "command": "c:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/TravelTown.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\TravelTown.dir\\src\\main.cpp.obj -c C:\\Users\\zacken\\Desktop\\TravelTown\\src\\main.cpp",
+  "file": "C:/Users/zacken/Desktop/TravelTown/src/main.cpp",
+  "output": "CMakeFiles/TravelTown.dir/src/main.cpp.obj"
+}
+]

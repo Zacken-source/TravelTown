@@ -1,0 +1,3 @@
+C:\msys64\mingw64\bin\cmake.exe -E rm -f CMakeFiles\TravelTown.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\TravelTown.dir/objects.a @CMakeFiles\TravelTown.dir\objects1.rsp
+c:\msys64\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\TravelTown.dir/objects.a -Wl,--no-whole-archive -o TravelTown.exe -Wl,--out-implib,libTravelTown.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\TravelTown.dir\linkLibs.rsp
