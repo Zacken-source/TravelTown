@@ -1,0 +1,12 @@
+[
+  {"name":"Auberge de jeunesse","type":"Lodging","cost":500,"upkeep":20,"capacity":30},
+  {"name":"Hotel sport et spa","type":"Lodging","cost":1500,"upkeep":60,"capacity":80},
+  {"name":"Camping nature","type":"Lodging","cost":200,"upkeep":8,"capacity":50},
+  {"name":"Stade municipal","type":"Sport","cost":2000,"upkeep":80,"prestige":50,"sportType":"athletics"},
+  {"name":"Piste de ski","type":"Sport","cost":3500,"upkeep":120,"prestige":80,"sportType":"ski"},
+  {"name":"Salle d escalade","type":"Sport","cost":800,"upkeep":30,"prestige":25,"sportType":"climbing"},
+  {"name":"Velodrome","type":"Sport","cost":1200,"upkeep":45,"prestige":35,"sportType":"cycling"},
+  {"name":"Aeroport regional","type":"Transport","cost":5000,"upkeep":200,"flow":100,"transportType":"air"},
+  {"name":"Gare centrale","type":"Transport","cost":3000,"upkeep":100,"flow":60,"transportType":"rail"},
+  {"name":"Port de plaisance","type":"Transport","cost":2500,"upkeep":80,"flow":40,"transportType":"sea"}
+]
