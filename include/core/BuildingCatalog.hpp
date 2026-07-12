@@ -1,6 +1,3 @@
-// include/core/BuildingCatalog.hpp
-// Charge le catalogue depuis JSON et fournit une factory pour creer les batiments.
-
 #pragma once
 #include <vector>
 #include <string>
