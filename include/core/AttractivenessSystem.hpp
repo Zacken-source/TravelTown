@@ -3,7 +3,6 @@
 #include <queue>
 #include <vector>
 #include <tuple>
-#include "Building.hpp"
 
 class AttractivenessSystem
 {
