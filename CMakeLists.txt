@@ -21,3 +21,9 @@ if(WIN32)
         "C:/msys64/mingw64/bin"
         $<TARGET_FILE_DIR:TravelTown>)
 endif()
+
+add_executable(TravelTown_Tests
+    tests/test_treasury.cpp
+    tests/test_grid.cpp
+)
+target_include_directories(TravelTown_Tests PRIVATE include tests)

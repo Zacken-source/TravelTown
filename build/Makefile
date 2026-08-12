@@ -128,6 +128,19 @@ TravelTown/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TravelTown.dir\build.make CMakeFiles/TravelTown.dir/build
 .PHONY : TravelTown/fast
 
+#=============================================================================
+# Target rules for targets named TravelTown_Tests
+
+# Build rule for target.
+TravelTown_Tests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 TravelTown_Tests
+.PHONY : TravelTown_Tests
+
+# fast build rule for target.
+TravelTown_Tests/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TravelTown_Tests.dir\build.make CMakeFiles/TravelTown_Tests.dir/build
+.PHONY : TravelTown_Tests/fast
+
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
@@ -152,6 +165,54 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TravelTown.dir\build.make CMakeFiles/TravelTown.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+tests/test_grid.obj: tests/test_grid.cpp.obj
+.PHONY : tests/test_grid.obj
+
+# target to build an object file
+tests/test_grid.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TravelTown_Tests.dir\build.make CMakeFiles/TravelTown_Tests.dir/tests/test_grid.cpp.obj
+.PHONY : tests/test_grid.cpp.obj
+
+tests/test_grid.i: tests/test_grid.cpp.i
+.PHONY : tests/test_grid.i
+
+# target to preprocess a source file
+tests/test_grid.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TravelTown_Tests.dir\build.make CMakeFiles/TravelTown_Tests.dir/tests/test_grid.cpp.i
+.PHONY : tests/test_grid.cpp.i
+
+tests/test_grid.s: tests/test_grid.cpp.s
+.PHONY : tests/test_grid.s
+
+# target to generate assembly for a file
+tests/test_grid.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TravelTown_Tests.dir\build.make CMakeFiles/TravelTown_Tests.dir/tests/test_grid.cpp.s
+.PHONY : tests/test_grid.cpp.s
+
+tests/test_treasury.obj: tests/test_treasury.cpp.obj
+.PHONY : tests/test_treasury.obj
+
+# target to build an object file
+tests/test_treasury.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TravelTown_Tests.dir\build.make CMakeFiles/TravelTown_Tests.dir/tests/test_treasury.cpp.obj
+.PHONY : tests/test_treasury.cpp.obj
+
+tests/test_treasury.i: tests/test_treasury.cpp.i
+.PHONY : tests/test_treasury.i
+
+# target to preprocess a source file
+tests/test_treasury.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TravelTown_Tests.dir\build.make CMakeFiles/TravelTown_Tests.dir/tests/test_treasury.cpp.i
+.PHONY : tests/test_treasury.cpp.i
+
+tests/test_treasury.s: tests/test_treasury.cpp.s
+.PHONY : tests/test_treasury.s
+
+# target to generate assembly for a file
+tests/test_treasury.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TravelTown_Tests.dir\build.make CMakeFiles/TravelTown_Tests.dir/tests/test_treasury.cpp.s
+.PHONY : tests/test_treasury.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -161,9 +222,16 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... TravelTown
+	@echo ... TravelTown_Tests
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... tests/test_grid.obj
+	@echo ... tests/test_grid.i
+	@echo ... tests/test_grid.s
+	@echo ... tests/test_treasury.obj
+	@echo ... tests/test_treasury.i
+	@echo ... tests/test_treasury.s
 .PHONY : help
 
 

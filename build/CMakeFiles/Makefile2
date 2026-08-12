@@ -63,10 +63,12 @@ CMAKE_BINARY_DIR = C:\Users\zacken\Desktop\TravelTown\build
 
 # The main recursive "all" target.
 all: CMakeFiles/TravelTown.dir/all
+all: CMakeFiles/TravelTown_Tests.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
 codegen: CMakeFiles/TravelTown.dir/codegen
+codegen: CMakeFiles/TravelTown_Tests.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -75,6 +77,7 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/TravelTown.dir/clean
+clean: CMakeFiles/TravelTown_Tests.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -108,6 +111,38 @@ CMakeFiles/TravelTown.dir/codegen:
 CMakeFiles/TravelTown.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TravelTown.dir\build.make CMakeFiles/TravelTown.dir/clean
 .PHONY : CMakeFiles/TravelTown.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/TravelTown_Tests.dir
+
+# All Build rule for target.
+CMakeFiles/TravelTown_Tests.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TravelTown_Tests.dir\build.make CMakeFiles/TravelTown_Tests.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TravelTown_Tests.dir\build.make CMakeFiles/TravelTown_Tests.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\zacken\Desktop\TravelTown\build\CMakeFiles --progress-num=3,4,5 "Built target TravelTown_Tests"
+.PHONY : CMakeFiles/TravelTown_Tests.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/TravelTown_Tests.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\zacken\Desktop\TravelTown\build\CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/TravelTown_Tests.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\zacken\Desktop\TravelTown\build\CMakeFiles 0
+.PHONY : CMakeFiles/TravelTown_Tests.dir/rule
+
+# Convenience name for target.
+TravelTown_Tests: CMakeFiles/TravelTown_Tests.dir/rule
+.PHONY : TravelTown_Tests
+
+# codegen rule for target.
+CMakeFiles/TravelTown_Tests.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TravelTown_Tests.dir\build.make CMakeFiles/TravelTown_Tests.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\zacken\Desktop\TravelTown\build\CMakeFiles --progress-num=3,4,5 "Finished codegen for target TravelTown_Tests"
+.PHONY : CMakeFiles/TravelTown_Tests.dir/codegen
+
+# clean rule for target.
+CMakeFiles/TravelTown_Tests.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TravelTown_Tests.dir\build.make CMakeFiles/TravelTown_Tests.dir/clean
+.PHONY : CMakeFiles/TravelTown_Tests.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
