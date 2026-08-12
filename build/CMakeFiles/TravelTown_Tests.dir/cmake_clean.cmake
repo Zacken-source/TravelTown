@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/TravelTown_Tests.dir/tests/test_grid.cpp.obj"
+  "CMakeFiles/TravelTown_Tests.dir/tests/test_grid.cpp.obj.d"
   "CMakeFiles/TravelTown_Tests.dir/tests/test_treasury.cpp.obj"
   "CMakeFiles/TravelTown_Tests.dir/tests/test_treasury.cpp.obj.d"
   "TravelTown_Tests.exe"

@@ -10,5 +10,11 @@
   "command": "c:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/TravelTown_Tests.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\TravelTown_Tests.dir\\tests\\test_treasury.cpp.obj -c C:\\Users\\zacken\\Desktop\\TravelTown\\tests\\test_treasury.cpp",
   "file": "C:/Users/zacken/Desktop/TravelTown/tests/test_treasury.cpp",
   "output": "CMakeFiles/TravelTown_Tests.dir/tests/test_treasury.cpp.obj"
+},
+{
+  "directory": "C:/Users/zacken/Desktop/TravelTown/build",
+  "command": "c:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/TravelTown_Tests.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\TravelTown_Tests.dir\\tests\\test_grid.cpp.obj -c C:\\Users\\zacken\\Desktop\\TravelTown\\tests\\test_grid.cpp",
+  "file": "C:/Users/zacken/Desktop/TravelTown/tests/test_grid.cpp",
+  "output": "CMakeFiles/TravelTown_Tests.dir/tests/test_grid.cpp.obj"
 }
 ]

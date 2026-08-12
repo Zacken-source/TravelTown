@@ -24,5 +24,6 @@ endif()
 
 add_executable(TravelTown_Tests
     tests/test_treasury.cpp
+    tests/test_grid.cpp
 )
 target_include_directories(TravelTown_Tests PRIVATE include tests)

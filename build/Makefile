@@ -165,6 +165,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TravelTown.dir\build.make CMakeFiles/TravelTown.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+tests/test_grid.obj: tests/test_grid.cpp.obj
+.PHONY : tests/test_grid.obj
+
+# target to build an object file
+tests/test_grid.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TravelTown_Tests.dir\build.make CMakeFiles/TravelTown_Tests.dir/tests/test_grid.cpp.obj
+.PHONY : tests/test_grid.cpp.obj
+
+tests/test_grid.i: tests/test_grid.cpp.i
+.PHONY : tests/test_grid.i
+
+# target to preprocess a source file
+tests/test_grid.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TravelTown_Tests.dir\build.make CMakeFiles/TravelTown_Tests.dir/tests/test_grid.cpp.i
+.PHONY : tests/test_grid.cpp.i
+
+tests/test_grid.s: tests/test_grid.cpp.s
+.PHONY : tests/test_grid.s
+
+# target to generate assembly for a file
+tests/test_grid.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TravelTown_Tests.dir\build.make CMakeFiles/TravelTown_Tests.dir/tests/test_grid.cpp.s
+.PHONY : tests/test_grid.cpp.s
+
 tests/test_treasury.obj: tests/test_treasury.cpp.obj
 .PHONY : tests/test_treasury.obj
 
@@ -202,6 +226,9 @@ help:
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... tests/test_grid.obj
+	@echo ... tests/test_grid.i
+	@echo ... tests/test_grid.s
 	@echo ... tests/test_treasury.obj
 	@echo ... tests/test_treasury.i
 	@echo ... tests/test_treasury.s
