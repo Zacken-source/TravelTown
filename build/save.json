@@ -1,0 +1,62 @@
+{
+    "balance": 70,
+    "buildings": [
+        {
+            "name": "Camping nature",
+            "x": 6,
+            "y": 4
+        },
+        {
+            "name": "Camping nature",
+            "x": 5,
+            "y": 5
+        },
+        {
+            "name": "Camping nature",
+            "x": 6,
+            "y": 5
+        },
+        {
+            "name": "Stade municipal",
+            "x": 17,
+            "y": 6
+        },
+        {
+            "name": "Stade municipal",
+            "x": 17,
+            "y": 7
+        },
+        {
+            "name": "Auberge de jeunesse",
+            "x": 16,
+            "y": 8
+        },
+        {
+            "name": "Auberge de jeunesse",
+            "x": 17,
+            "y": 8
+        },
+        {
+            "name": "Auberge de jeunesse",
+            "x": 16,
+            "y": 9
+        },
+        {
+            "name": "Velodrome",
+            "x": 11,
+            "y": 12
+        },
+        {
+            "name": "Velodrome",
+            "x": 11,
+            "y": 13
+        }
+    ],
+    "dayCount": 7,
+    "population": 0,
+    "resources": {
+        "energy": 100,
+        "equipment": 50
+    },
+    "version": "1.0"
+}
