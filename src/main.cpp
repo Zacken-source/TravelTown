@@ -24,17 +24,17 @@ int main()
     window.setFramerateLimit(60);
 
     sf::Font font;
-    if (!font.openFromFile("assets/fonts/arial.ttf"))
+    if (!font.openFromFile("../assets/fonts/DejaVuSans.ttf"))
     { std::cerr << "Police manquante\n"; return -1; }
 
     const int TILE_SIZE = 38;
     Grid                 grid(28, 18);
-    GridRenderer         renderer(TILE_SIZE);
+    GridRenderer         renderer(TILE_SIZE, font);
     InputHandler         input(TILE_SIZE);
     AttractivenessSystem attrSys;
 
     BuildingCatalog catalog;
-    catalog.loadFromFile("assets/data/buildings.json");
+    catalog.loadFromFile("../assets/data/buildings.json");
 
     Treasury        treasury(10000);
     ResourceManager resources;
